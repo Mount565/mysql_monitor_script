@@ -1,6 +1,8 @@
+#!/usr/bin/bash
+
 # monitor_innodb_pending_io_status.sh
 # Usage: monitor_innodb_pending_io_status.sh -u test -p test -h 192.168.21.2 -P 3306 -i 1 -m 300
-#!/usr/bin/bash
+
  set -e
 user=test
 passwd=test
